@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="./dist/style.css">
+
+  <title>Employee quick link</title>
+</head>
+
+<body>
+  <header>
+    <div class="container-fluid text-center border-bottom">
+      <h1>My Team</h1>
+    </div>
+  </header>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="jumbotron jubmotron-fuid">
+      </div>
+      <div class="col-md-9" id="searchResults">
+        <div class="row weather-conditions">
+          <div class="col-md-12">
+            <div class="card">
+              <div class="card-body" id="currentWeather">
+                <h3 class="card-title">
+                  <div id="currentCity"></div>
+                  <div id="todaysDate"></div>
+                  <img src="" alt="" id="currentWeatherIcon">
+                </h3>
+                <ul class="card-text employee info">
+                  <li>Name: <div id="todaysTemp"></div>&degF</li>
+                  <li>ID: <div id="todaysWindSpeed"></div>MPH</li>
+                  <li>Email: <div id="todaysHumidity"></div>%</li>
+                  <li>Office Number:<div class="border" id="todaysUVIndex">
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="row" id="forecast">
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="index.js"></script>
+
+</body>
+
+</html> 
